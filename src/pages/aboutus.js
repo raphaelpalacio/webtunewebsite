@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './AboutUs.css'; // Assuming AboutUs.css is in the same directory as AboutUs.js
+import './AboutUs.css'; /
 
 const AboutUs = () => {
-  // useState and functions from previous examples would go here
+
 
   // The initial profiles array with default information or empty strings
   const [profiles, setProfiles] = useState([
