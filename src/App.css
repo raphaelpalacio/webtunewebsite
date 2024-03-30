@@ -41,3 +41,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.profile-card img {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  border-radius: 50%; /* To make the image round */
+  object-fit: cover; /* This will cover the area, cropping the image if necessary */
+  border: 1px solid #ccc; /* Optional: adds a border around the image */
+  margin-bottom: 10px; /* Optional: adds some space between the image and the text below */
+}
