@@ -26,9 +26,20 @@ Furthermore, SEO offers a competitive advantage. If two websites sell similar pr
 
 SEO isn't just a one-time task; it's an ongoing process. The digital landscape is continually evolving, and so are the algorithms that search engines use to rank sites. That's why it's crucial to stay on top of SEO trends and continually refine your strategy. By doing so, you ensure that your site remains relevant, useful, and successful in attracting and retaining customers.
 
-
         </p>
-        </div>
+        <h2>Learn More About SEO</h2>
+        <p>Here are more resources to get you started on your SEO journey!</p>
+        <ul>
+            <li><a href="https://moz.com/beginners-guide-to-seo" target="_blank" rel="noopener noreferrer">Moz's Beginner's Guide to SEO</a></li>
+            <li><a href="https://www.searchenginejournal.com/seo-guide/" target="_blank" rel="noopener noreferrer">Search Engine Journal's SEO Guide</a></li>
+            <li><a href="https://ahrefs.com/blog/seo-basics/" target="_blank" rel="noopener noreferrer">Ahrefs' SEO Basics</a></li>
+            <li><a href="https://schema.org/" target="_blank" rel="noopener noreferrer">Schema for Structured Data on the Internet</a></li>
+        </ul>
+    </div>
+  
+        
+
     );
+    
 }
 export default WhySEO;
