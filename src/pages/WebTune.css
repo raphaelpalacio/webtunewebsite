@@ -1,0 +1,29 @@
+.webtune-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This centers vertically in the container */
+    align-items: center; /* This centers horizontally in the container */
+    height: 100vh; /* This makes the container the full height of the viewport */
+    text-align: center; /* This centers the text inside the container */
+    background-color: #fff; /* Adjust background color as needed */
+  }
+  
+  /* Additional styles for the button */
+  .btn-get-started {
+    width: 200px; /* Example width */
+    margin-top: 0px; /* Adds a little space above the button */
+  }
+  
+  /* You can also control the spacing between the title, description, and button */
+  .webtune-title {
+    margin-bottom: 20px; /* Space between title and description */
+  }
+  
+  .webtune-description {
+    margin-bottom: 40px; /* Space between description and button */
+  }
+  /* Add the following to remove any default margins that could affect the layout */
+body, h1, p {
+    margin: 0;
+  }
+  

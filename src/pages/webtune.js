@@ -1,14 +1,19 @@
-// This is the home page of the WebTune app.
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './WebTune.css'; // Make sure this CSS file includes the styles provided
 
 const WebTune = () => {
+  let navigate = useNavigate();
+
   return (
-    <div style={{ padding: '20px', maxWidth: '600px', margin: 'auto' }}>
-      <h1>Welcome to WebTune</h1>
-      <p>This is the home page.</p>
+    <div className="webtune-container">
+      <h1 className="webtune-title">WebTune</h1>
+      <p className="webtune-description">Webtune is a tool to SEO optimize your Django applications.</p>
+      <button className="btn btn-primary btn-lg btn-get-started" onClick={() => navigate('/webtune-documentation')}>
+        Get Started
+      </button>
     </div>
   );
 };
 
 export default WebTune;
-

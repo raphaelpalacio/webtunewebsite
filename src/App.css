@@ -50,3 +50,17 @@ a:hover {
   border: 1px solid #ccc; /* Optional: adds a border around the image */
   margin-bottom: 10px; /* Optional: adds some space between the image and the text below */
 }
+
+.custom-navbar {
+  background-color: #0E0F2E; /* Replace #yourColorCode with the hex code of the color you want */
+}
+
+.custom-navbar .navbar-nav .nav-link,
+.custom-navbar .navbar-brand {
+  color: #ffffff; /* White color */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-brand:hover {
+  color: #ffffff; /* Light gray for hover state */
+}
