@@ -1,0 +1,25 @@
+.resources-container {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .resources-list .resource-link {
+    display: block; /* Make each link its own line */
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 10px; /* Space between items */
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+  }
+  
+  .resources-list .resource-link:hover {
+    background-color: #e8e8e8; /* Slightly darker on hover */
+  }
+  

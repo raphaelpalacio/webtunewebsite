@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AboutUs.css'; /
+import './AboutUs.css'; 
 
 const AboutUs = () => {
 
@@ -11,7 +11,8 @@ const AboutUs = () => {
      hometown: '', 
      college: '', 
      graduatingClass: '',
-     image: null 
+     image: null,
+     linkedin: ''
     },
 
     
@@ -20,7 +21,8 @@ const AboutUs = () => {
     hometown: '', 
     college: '', 
     graduatingClass: '', 
-    image: null 
+    image: null,
+    linkedin: ''
     },
 
     { id: 3, 
@@ -28,7 +30,8 @@ const AboutUs = () => {
        hometown: 'Corning, NY', 
        college: 'Emory University', 
        graduatingClass: 'Class of 2025', 
-       image: '/Raphael.JPG'
+       image: '/Raphael.JPG',
+       linkedin: 'https://www.linkedin.com/in/raphael-palacio-36a1801ab/'
     },
   ]);
 
@@ -56,6 +59,9 @@ const AboutUs = () => {
             <p>Hometown: {profile.hometown}</p>
             <p>College: {profile.college}</p>
             <p>Graduating Class: {profile.graduatingClass}</p>
+
+            {/* Hyperlink to LinkedIn */}
+            {profile.linkedin && <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>}
           </div>
         ))}
       </div>

@@ -1,6 +1,33 @@
 // simple page where we can add why SEO is important and what SEO is
 
 import React from 'react';
+import  './WhySEO.css'; 
+
+const resources = [
+    { 
+        id: 1, 
+        title: "Moz's Beginner's Guide to SEO",
+        link: 'https://moz.com/beginners-guide-to-seo'
+    },
+    {
+        id: 2,
+        title: "Search Engine Journal's SEO Guide",
+        link: 'https://www.searchenginejournal.com/seo-guide/'
+    },
+    
+    {
+        id: 3,
+        title: "Ahrefs' SEO Basics",
+        link: 'https://ahrefs.com/blog/seo-basics/'
+    },
+
+    {
+        id: 4,
+        title: "Schema for Structured Data on the Internet",
+        link: 'https://schema.org/'
+    }
+  ];
+  
 const WhySEO = () => {
     return (
         <div style={{ padding: '20px', maxWidth: '600px', margin: 'auto' }}>
@@ -29,12 +56,16 @@ SEO isn't just a one-time task; it's an ongoing process. The digital landscape i
         </p>
         <h2>Learn More About SEO</h2>
         <p>Here are more resources to get you started on your SEO journey!</p>
-        <ul>
-            <li><a href="https://moz.com/beginners-guide-to-seo" target="_blank" rel="noopener noreferrer">Moz's Beginner's Guide to SEO</a></li>
-            <li><a href="https://www.searchenginejournal.com/seo-guide/" target="_blank" rel="noopener noreferrer">Search Engine Journal's SEO Guide</a></li>
-            <li><a href="https://ahrefs.com/blog/seo-basics/" target="_blank" rel="noopener noreferrer">Ahrefs' SEO Basics</a></li>
-            <li><a href="https://schema.org/" target="_blank" rel="noopener noreferrer">Schema for Structured Data on the Internet</a></li>
-        </ul>
+        <div className="resources-container">
+            <h2>Learn More About SEO</h2>
+            <div className="resources-list">
+                {resources.map(resource => (
+                <a key={resource.id} href={resource.link} target="_blank" rel="noopener noreferrer" className="resource-link">
+                    {resource.title}
+                </a>
+                ))}
+            </div>
+            </div>
     </div>
   
         
