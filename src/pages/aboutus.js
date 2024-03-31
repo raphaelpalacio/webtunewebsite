@@ -5,14 +5,14 @@ const AboutUs = () => {
 
 
   // The initial profiles array with default information or empty strings
-  const [profiles, setProfiles] = useState([
+  const [profiles] = useState([
     { id: 1, 
-     name: '',
-     hometown: '', 
-     college: '', 
-     graduatingClass: '',
-     image: null,
-     linkedin: ''
+     name: 'Rongwei (Wayne) Ji',
+     hometown: 'Shanghai, China', 
+     college: 'Souther Methodist University', 
+     graduatingClass: 'Class of 2025',
+     image: '/Wayne.jpeg',
+     linkedin: 'https://www.linkedin.com/in/rongweiji/'
     },
 
     

@@ -32,7 +32,7 @@ const resources = [
 const WhySEO = () => {
     return (
         <div className="full-width-container">
-        <h1>Why SEO</h1>
+        <h1 className="title_center">Why SEO</h1>
         <p className = "paragraph">
         Search Engine Optimization (SEO) is the practice of increasing the quantity and quality of traffic to your website through organic search engine results. It involves understanding what people are searching for online, the answers they are seeking, the words they’re using, and the type of content they wish to consume. By knowing the intent behind these searches, you can create and optimize content that aligns with those queries.
 
@@ -54,9 +54,8 @@ Furthermore, SEO offers a competitive advantage. If two websites sell similar pr
 
 SEO isn't just a one-time task; it's an ongoing process. The digital landscape is continually evolving, and so are the algorithms that search engines use to rank sites. That's why it's crucial to stay on top of SEO trends and continually refine your strategy. By doing so, you ensure that your site remains relevant, useful, and successful in attracting and retaining customers.
 
-        </p>
-        <p className="paragraph-above-title">Here are more resources to get you started on your SEO journey!</p>
-        <h2 className="title-center">Learn More About SEO</h2>
+        
+        <h2 className="title_center">Learn More About SEO</h2>
         <div className="resources-container">
             <div className="resources-list">
                 {resources.map(resource => (
@@ -66,7 +65,8 @@ SEO isn't just a one-time task; it's an ongoing process. The digital landscape i
                 ))}
             </div>
             </div>
-    </div>
+        </p>
+        </div>
     );
     
 }
