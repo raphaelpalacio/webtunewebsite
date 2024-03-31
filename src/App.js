@@ -26,6 +26,9 @@ function App() {
                 <Link className="nav-link navbar-btn-link" to="/why-seo">Why SEO</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link navbar-btn-link" to="/webtune-documentation">Documentation</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link navbar-btn-link" to="/about-us">About Us</Link>
               </li>
             </ul>

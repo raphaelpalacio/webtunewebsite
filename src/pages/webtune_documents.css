@@ -1,0 +1,29 @@
+/* WebTuneDocumentation.css */
+/* This assumes the Sphinx documentation is using class names such as .wy-nav-content, .rst-content, etc. */
+
+/* Style the iframe content */
+.webtune-iframe .wy-nav-content,
+.webtune-iframe .rst-content {
+  background-color: #0E0F2E; /* Match the React app background */
+  color: #ffffff; /* Match the React app text color */
+}
+
+/* Adjust padding and margins to fit the iframe */
+.webtune-iframe .wy-nav-content {
+  padding: 0;
+}
+
+/* Override specific Sphinx styles here */
+.webtune-iframe h1,
+.webtune-iframe h2,
+.webtune-iframe h3 {
+  font-family: 'Your React App Font', sans-serif;
+}
+
+/* Hide elements that may not fit with your React app's design */
+.webtune-iframe .some-sphinx-header-element,
+.webtune-iframe .some-sphinx-footer-element {
+  display: none;
+}
+
+/* More overrides... */

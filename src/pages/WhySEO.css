@@ -1,5 +1,5 @@
 .resources-container {
-    background: #ffffff;
+    background: #0E0F2E;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -9,12 +9,12 @@
   
   .resources-list .resource-link {
     display: block; /* Make each link its own line */
-    background: #f8f8f8;
+    background: #8080D7;
     border: 1px solid #ddd;
     padding: 10px 15px;
     margin-bottom: 10px; /* Space between items */
     border-radius: 5px;
-    color: #333;
+    color: #ffffff;
     text-decoration: none; /* Remove underline */
     transition: background-color 0.2s ease; /* Smooth transition for hover effect */
   }
@@ -22,4 +22,28 @@
   .resources-list .resource-link:hover {
     background-color: #e8e8e8; /* Slightly darker on hover */
   }
+
+  /* Add padding to the paragraph above the Learn More title */
+.paragraph-above-title {
+  margin-bottom: 20px; /* Adjust the value to your preference */
+}
+
+/* This class is for the div that wraps your content to ensure it takes the full width */
+.full-width-container {
+  padding: 20px;
+  width: 100%; /* This ensures the container takes the full width of its parent */
+  box-sizing: border-box; /* This ensures padding is included in the width */
+}
+
+/* Add this to your CSS file */
+.paragraph {
+  text-indent: 30px; /* Adjust the value as needed for the indentation */
+  margin-bottom: 20px; /* Adjust the value as needed for space between paragraphs */
+}
+
+.title_center {
+  text-align: center;
+}
+
+
   
