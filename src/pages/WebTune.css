@@ -5,8 +5,20 @@
     align-items: center; /* This centers horizontally in the container */
     height: 100vh; /* This makes the container the full height of the viewport */
     text-align: center; /* This centers the text inside the container */
-    background-color: #fff; /* Adjust background color as needed */
+    background-color: #0E0F2E; /* Adjust background color as needed */
   }
+
+  .btn-get-started {
+    background-color: #8080D7;
+    border-color: #8080D7;
+    color: #ffffff; /* White text color for better visibility on the purple button */
+  }
+  
+  .btn-get-started:hover {
+    background-color: #6c6fa5;
+    border-color: #6c6fa5;
+  }
+  
   
   /* Additional styles for the button */
   .btn-get-started {
