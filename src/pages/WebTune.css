@@ -12,6 +12,14 @@
   background-color: #0E0F2E;
 }
 
+.webtune-image-container {
+  /* Adjust width and height as needed */
+  width: 600px; /* This should be the width of your image or container */
+  height: 400px; /* This should be the height of your image or container */
+  /* Add styles for your image container if needed */
+}
+
+
 .webtune-title,
 .webtune-description {
   max-width: 600px; /* Restrict the maximum width of the title and description */
@@ -29,6 +37,19 @@
   background-color: #6c6fa5;
   border-color: #6c6fa5;
 }
+
+/* Image container */
+.webtune-image-container {
+  width: 50%; /* Take up half of the wrapper's width */
+  max-width: 600px; /* Maximum width of the image container */
+}
+
+/* Image styles */
+.webtune-image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 /* Remove the margin-top style if it's pushing the button too low */
 .btn-get-started {

@@ -12,6 +12,9 @@ const WebTune = () => {
       <button className="btn btn-primary btn-lg btn-get-started" onClick={() => navigate('/webtune-documentation')}>
         Get Started
       </button>
+      <div className="webtune-image-container">
+        <img src="/seo_clipart.jpg" alt="Descriptive Alt Text" />
+      </div>
     </div>
   );
 };
