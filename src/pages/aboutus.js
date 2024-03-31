@@ -17,12 +17,12 @@ const AboutUs = () => {
 
     
     { id: 2, 
-      name: '', 
-    hometown: '', 
-    college: '', 
-    graduatingClass: '', 
+      name: 'Rafael Almeida', 
+    hometown: 'Elizabeth, NJ', 
+    college: 'Bowdin College', 
+    graduatingClass: 'Class of 2027', 
     image: null,
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/ralmeida2004/'
     },
 
     { id: 3, 

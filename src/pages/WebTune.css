@@ -1,41 +1,41 @@
-.webtune-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* This centers vertically in the container */
-    align-items: center; /* This centers horizontally in the container */
-    height: 100vh; /* This makes the container the full height of the viewport */
-    text-align: center; /* This centers the text inside the container */
-    background-color: #0E0F2E; /* Adjust background color as needed */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-  .btn-get-started {
-    background-color: #8080D7;
-    border-color: #8080D7;
-    color: #ffffff; /* White text color for better visibility on the purple button */
-  }
-  
-  .btn-get-started:hover {
-    background-color: #6c6fa5;
-    border-color: #6c6fa5;
-  }
-  
-  
-  /* Additional styles for the button */
-  .btn-get-started {
-    width: 200px; /* Example width */
-    margin-top: 0px; /* Adds a little space above the button */
-  }
-  
-  /* You can also control the spacing between the title, description, and button */
-  .webtune-title {
-    margin-bottom: 20px; /* Space between title and description */
-  }
-  
-  .webtune-description {
-    margin-bottom: 40px; /* Space between description and button */
-  }
-  /* Add the following to remove any default margins that could affect the layout */
+.webtune-container {
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-left: 100px; /* Adjust padding to match the mockup */
+  text-align: left;
+  background-color: #0E0F2E;
+}
+
+.webtune-title,
+.webtune-description {
+  max-width: 600px; /* Restrict the maximum width of the title and description */
+  margin-bottom: 1rem; /* Adjust the space between the title, description, and button */
+}
+
+.btn-get-started {
+  background-color: #8080D7;
+  border-color: #8080D7;
+  color: #ffffff;
+  padding: 0.5rem 2rem; /* Increase padding to make the button wider */
+}
+
+.btn-get-started:hover {
+  background-color: #6c6fa5;
+  border-color: #6c6fa5;
+}
+
+/* Remove the margin-top style if it's pushing the button too low */
+.btn-get-started {
+  margin-top: 0; /* Adjust or remove as needed */
+}
+
+/* Ensure that the body, h1, p have the margin reset */
 body, h1, p {
-    margin: 0;
-  }
-  
+  margin: 0;
+}
