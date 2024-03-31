@@ -3,34 +3,40 @@
 .webtune-container {
   font-family: 'Outfit', sans-serif;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Spacing between main content and image */
+  padding: 0 100px; /* Side padding */
   height: 100vh;
-  padding-left: 100px; /* Adjust padding to match the mockup */
-  text-align: left;
   background-color: #0E0F2E;
+  color: white;
 }
 
-.webtune-image-container {
-  /* Adjust width and height as needed */
-  width: 600px; /* This should be the width of your image or container */
-  height: 400px; /* This should be the height of your image or container */
-  /* Add styles for your image container if needed */
+/* Main content and image wrapper */
+.webtune-content-wrapper {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: flex-start; /* Align content to the start */
+  width: 100%; /* Take the full width */
 }
 
+/* Container for text and button */
+.webtune-text-container {
+  max-width: 600px; /* Restrict the maximum width of the content */
+  padding-right: 50px; /* Spacing between text and image */
+}
 
+/* Title and description styles */
 .webtune-title,
 .webtune-description {
-  max-width: 600px; /* Restrict the maximum width of the title and description */
-  margin-bottom: 1rem; /* Adjust the space between the title, description, and button */
+  margin-bottom: 1rem;
 }
 
+/* Button styles */
 .btn-get-started {
   background-color: #8080D7;
   border-color: #8080D7;
   color: #ffffff;
-  padding: 0.5rem 2rem; /* Increase padding to make the button wider */
+  padding: 0.5rem 2rem;
 }
 
 .btn-get-started:hover {
@@ -41,7 +47,8 @@
 /* Image container */
 .webtune-image-container {
   width: 50%; /* Take up half of the wrapper's width */
-  max-width: 600px; /* Maximum width of the image container */
+  max-width: 450px; /* Maximum width of the image container */
+  margin-left:375px;
 }
 
 /* Image styles */
@@ -50,13 +57,7 @@
   height: auto; /* Maintain aspect ratio */
 }
 
-
-/* Remove the margin-top style if it's pushing the button too low */
-.btn-get-started {
-  margin-top: 0; /* Adjust or remove as needed */
-}
-
-/* Ensure that the body, h1, p have the margin reset */
+/* Remove default margins */
 body, h1, p {
   margin: 0;
 }

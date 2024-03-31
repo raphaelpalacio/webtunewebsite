@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'; // Make sure your custom CSS is properly imported
 import AboutUs from './pages/aboutus';
 import WebTune from './pages/webtune';
-import WhySEO from './pages/whyseo'; 
+import WhySEO from './pages/whyseo';
 import WebTuneDocumentation from './pages/webtune_documentation'; // Make sure to create this component
 
 function App() {
@@ -20,13 +20,13 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link navbar-btn-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/why-seo">Why SEO</Link>
+                <Link className="nav-link navbar-btn-link" to="/why-seo">Why SEO</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about-us">About Us</Link>
+                <Link className="nav-link navbar-btn-link" to="/about-us">About Us</Link>
               </li>
             </ul>
           </div>

@@ -74,24 +74,29 @@ a:hover {
 /* Ensure that navigation links are aligned horizontally and centered */
 .custom-navbar .navbar-nav {
   position: absolute;
-  left: 50%;
+  left: 80%;
   transform: translateX(-50%);
 }
 
 /* Remove the flex-grow and center alignment for the brand when expanded */
 @media (min-width: 992px) { /* Adjust the pixel value based on the breakpoint you are using */
   .custom-navbar .navbar-collapse {
-    flex-grow: 0; /* Do not allow the navbar-collapse to grow */
-  }
-
-  .navbar-nav {
-    flex-grow: 1; /* Allow the navigation links to grow */
-    justify-content: center; /* Center the navigation links */
+    justify-content: flex-end; /* Do not allow the navbar-collapse to grow */
   }
 
   .custom-navbar .navbar-brand {
-    position: relative;
-    left: 0;
-    transform: none;
+    position: absolute;
+    left: 1rem; /* Adjust the pixel value based on your design */
   }
+
+  .custom-navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: flex-end; /* Aligns navbar items to the right */
+    position: relative; /* Override the previous absolute position */
+    transform: none; /* Remove the previous transform */
+    left: auto; /* Reset left position */
+    right: 1rem; /* Or your desired spacing from the right edge */
+  }
+
+  
 }
