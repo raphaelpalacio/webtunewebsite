@@ -9,7 +9,7 @@ const AboutUs = () => {
     { id: 1, 
      name: 'Rongwei (Wayne) Ji',
      hometown: 'Shanghai, China', 
-     college: 'Souther Methodist University', 
+     college: 'Southern Methodist University', 
      graduatingClass: 'Class of 2025',
      image: '/Wayne.jpeg',
      linkedin: 'https://www.linkedin.com/in/rongweiji/'
@@ -21,7 +21,7 @@ const AboutUs = () => {
     hometown: 'Elizabeth, NJ', 
     college: 'Bowdin College', 
     graduatingClass: 'Class of 2027', 
-    image: null,
+    image: 'rafael.jpg',
     linkedin: 'https://www.linkedin.com/in/ralmeida2004/'
     },
 
