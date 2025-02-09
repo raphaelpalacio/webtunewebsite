@@ -1,5 +1,5 @@
 {
-
+  "homepage": ".",
   "name": "webtunewebsite",
 
   "version": "0.1.0",
@@ -28,16 +28,20 @@
 
     "react-snap": "^1.23.0",
 
+    "serve": "^14.2.1",
+
     "web-vitals": "^2.1.4"
 
   },
 
   "scripts": {
+
     "predeploy": "npm run build",
+
     "deploy": "gh-pages -d build"
+
   },
-  "homepage": "https://raphaelpalacio.github.io/webtunewebsite/",
-  
+
 
   "eslintConfig": {
 
